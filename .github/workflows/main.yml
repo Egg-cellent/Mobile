@@ -26,6 +26,6 @@ jobs:
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
       - name: Build for iOS Simulator
-        run: eas build --platform ios --profile ios-simulator --non-interactive --no-wait --local
+        run: eas build --platform ios --profile ios-simulator
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
